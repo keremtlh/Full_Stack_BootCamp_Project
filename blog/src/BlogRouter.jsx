@@ -3,8 +3,8 @@ import { withTranslation } from 'react-i18next';
 
 import { Navigate, Route, Routes } from 'react-router-dom';
 import FooterComponent from './components/FooterComponent';
-import HeaderComponent from './components/HeaderComponent.';
-import MainComponent from './components/MainComponent.';
+import HeaderComponent from './components/HeaderComponent';
+import MainComponent from './components/MainComponent';
 import React from 'react';
 
 // CLASS COMPONENT BlogRouter
