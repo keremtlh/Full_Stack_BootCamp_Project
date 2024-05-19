@@ -1,216 +1,38 @@
-2024-05-18T19:08:32.196+03:00  INFO 24840 --- [main] c.k.FullStackBootCampProjectApplication  : Starting FullStackBootCampProjectApplication using Java 21.0.3 with PID 24840 (D:\Spring\Full_Stack_BootCamp_Project\target\classes started by kerem in D:\Spring\Full_Stack_BootCamp_Project)
-2024-05-18T19:08:32.201+03:00  INFO 24840 --- [main] c.k.FullStackBootCampProjectApplication  : The following 1 profile is active: "frontend"
-2024-05-18T19:08:33.207+03:00  INFO 24840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-18T19:08:33.279+03:00  INFO 24840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 6 JPA repository interfaces.
-2024-05-18T19:08:33.786+03:00  INFO 24840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
-2024-05-18T19:08:33.795+03:00  INFO 24840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-18T19:08:33.796+03:00  INFO 24840 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
-2024-05-18T19:08:33.888+03:00  INFO 24840 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-18T19:08:33.889+03:00  INFO 24840 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1646 ms
-2024-05-18T19:08:33.976+03:00  INFO 24840 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-18T19:08:34.192+03:00  INFO 24840 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
-2024-05-18T19:08:34.193+03:00  INFO 24840 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-18T19:08:34.202+03:00  INFO 24840 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
-2024-05-18T19:08:34.258+03:00 DEBUG 24840 --- [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
-2024-05-18T19:08:34.259+03:00 DEBUG 24840 --- [main] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
-2024-05-18T19:08:34.637+03:00  INFO 24840 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-18T19:08:35.640+03:00  INFO 24840 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-18T19:08:35.647+03:00  INFO 24840 --- [main] com.keremtalha.bean.Locale18NBeanClass   : swagger Open Api Before Bean başladı
-2024-05-18T19:08:35.648+03:00  INFO 24840 --- [main] c.keremtalha.bean.ModelMapperBeanClass   : Model mapper bean Before başladı
-2024-05-18T19:08:35.648+03:00  INFO 24840 --- [main] c.k.bean.PasswordEncoderBeanClass        : password Encoder Before Bean başladı
-2024-05-18T19:08:35.649+03:00  INFO 24840 --- [main] c.k.bean.SwaggerOpenApiBeanClass         : swagger Open Api Before Bean başladı
-2024-05-18T19:08:35.976+03:00  INFO 24840 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-18T19:08:36.441+03:00  WARN 24840 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-18T19:08:36.533+03:00 DEBUG 24840 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2024-05-18T19:08:36.559+03:00  INFO 24840 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-05-18T19:08:36.616+03:00 DEBUG 24840 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 34 mappings in 'requestMappingHandlerMapping'
-2024-05-18T19:08:37.025+03:00 DEBUG 24840 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2024-05-18T19:08:37.034+03:00 DEBUG 24840 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2024-05-18T19:08:37.345+03:00  INFO 24840 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
-2024-05-18T19:08:37.416+03:00  INFO 24840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
-2024-05-18T19:08:37.428+03:00  INFO 24840 --- [main] c.k.FullStackBootCampProjectApplication  : Started FullStackBootCampProjectApplication in 5.598 seconds (process running for 6.325)
-2024-05-18T19:08:47.404+03:00  INFO 24840 --- [http-nio-4444-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-18T19:08:47.404+03:00  INFO 24840 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-18T19:08:47.405+03:00 DEBUG 24840 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2024-05-18T19:08:47.405+03:00 DEBUG 24840 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
-2024-05-18T19:08:47.405+03:00 DEBUG 24840 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
-2024-05-18T19:08:47.406+03:00 DEBUG 24840 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7798de95
-2024-05-18T19:08:47.407+03:00 DEBUG 24840 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6eb06667
-2024-05-18T19:08:47.407+03:00 DEBUG 24840 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2024-05-18T19:08:47.408+03:00  INFO 24840 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2024-05-18T19:08:47.424+03:00 DEBUG 24840 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
-2024-05-18T19:08:47.440+03:00 DEBUG 24840 --- [http-nio-4444-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
-2024-05-18T19:08:47.651+03:00 DEBUG 24840 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-05-18T19:08:47.832+03:00 DEBUG 24840 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
-2024-05-18T19:08:47.835+03:00 DEBUG 24840 --- [http-nio-4444-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
-2024-05-18T19:08:47.839+03:00 DEBUG 24840 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2024-05-18T19:08:47.856+03:00 DEBUG 24840 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/js/template.js", parameters={}
-2024-05-18T19:08:47.857+03:00 DEBUG 24840 --- [http-nio-4444-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
-2024-05-18T19:08:47.859+03:00 DEBUG 24840 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2024-05-18T19:08:48.222+03:00 DEBUG 24840 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
-2024-05-18T19:08:48.223+03:00 DEBUG 24840 --- [http-nio-4444-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
-2024-05-18T19:08:48.225+03:00 DEBUG 24840 --- [http-nio-4444-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2024-05-18T19:08:48.225+03:00 DEBUG 24840 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
-2024-05-18T19:08:48.228+03:00 DEBUG 24840 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
-2024-05-18T19:08:48.230+03:00 DEBUG 24840 --- [http-nio-4444-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.error.CustomErrorHandleWebRequest#handleErrorMethod(WebRequest)
-2024-05-18T19:08:48.267+03:00 DEBUG 24840 --- [http-nio-4444-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
-2024-05-18T19:08:48.271+03:00 DEBUG 24840 --- [http-nio-4444-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [ApiResult(path=/favicon.ico, message=No message available, error=null, status=404, createdDate=Sat M (truncated)...]
-2024-05-18T19:08:48.286+03:00 DEBUG 24840 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
-2024-05-18T19:09:42.084+03:00  INFO 24840 --- [main] c.k.runner.BlogCommandLineRunner1        : Category-Blog CommandLineRunner Çalıştı
-2024-05-18T19:11:36.671+03:00  INFO 24840 --- [SpringApplicationShutdownHook] c.k.bean.SwaggerOpenApiBeanClass         : swagger Open Api After Bean bitti
-2024-05-18T19:11:36.672+03:00  INFO 24840 --- [SpringApplicationShutdownHook] c.k.bean.PasswordEncoderBeanClass        : password Encoder After Bean bitti
-2024-05-18T19:11:36.672+03:00  INFO 24840 --- [SpringApplicationShutdownHook] c.keremtalha.bean.ModelMapperBeanClass   : Model mapper After bean bitti
-2024-05-18T19:11:36.673+03:00  INFO 24840 --- [SpringApplicationShutdownHook] com.keremtalha.bean.Locale18NBeanClass   : locale 18N After Bean Method bitti
-2024-05-18T19:11:36.673+03:00  INFO 24840 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-18T19:11:36.888+03:00  INFO 24840 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-18T19:11:36.903+03:00  INFO 24840 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-18T19:12:51.698+03:00  INFO 13084 --- [main] c.k.FullStackBootCampProjectApplication  : Starting FullStackBootCampProjectApplication using Java 21.0.3 with PID 13084 (D:\Spring\Full_Stack_BootCamp_Project\target\classes started by kerem in D:\Spring\Full_Stack_BootCamp_Project)
-2024-05-18T19:12:51.699+03:00  INFO 13084 --- [main] c.k.FullStackBootCampProjectApplication  : The following 1 profile is active: "frontend"
-2024-05-18T19:12:52.505+03:00  INFO 13084 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-18T19:12:52.573+03:00  INFO 13084 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 6 JPA repository interfaces.
-2024-05-18T19:12:53.000+03:00  INFO 13084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
-2024-05-18T19:12:53.005+03:00  INFO 13084 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-18T19:12:53.005+03:00  INFO 13084 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
-2024-05-18T19:12:53.087+03:00  INFO 13084 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-18T19:12:53.088+03:00  INFO 13084 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1354 ms
-2024-05-18T19:12:53.161+03:00  INFO 13084 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-18T19:12:53.337+03:00  INFO 13084 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
-2024-05-18T19:12:53.339+03:00  INFO 13084 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-18T19:12:53.348+03:00  INFO 13084 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
-2024-05-18T19:12:53.395+03:00 DEBUG 13084 --- [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
-2024-05-18T19:12:53.395+03:00 DEBUG 13084 --- [main] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
-2024-05-18T19:12:53.687+03:00  INFO 13084 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-18T19:12:54.620+03:00  INFO 13084 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-18T19:12:54.626+03:00  INFO 13084 --- [main] com.keremtalha.bean.Locale18NBeanClass   : swagger Open Api Before Bean başladı
-2024-05-18T19:12:54.627+03:00  INFO 13084 --- [main] c.keremtalha.bean.ModelMapperBeanClass   : Model mapper bean Before başladı
-2024-05-18T19:12:54.628+03:00  INFO 13084 --- [main] c.k.bean.PasswordEncoderBeanClass        : password Encoder Before Bean başladı
-2024-05-18T19:12:54.628+03:00  INFO 13084 --- [main] c.k.bean.SwaggerOpenApiBeanClass         : swagger Open Api Before Bean başladı
-2024-05-18T19:12:54.928+03:00  INFO 13084 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-18T19:12:55.372+03:00  WARN 13084 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-18T19:12:55.454+03:00 DEBUG 13084 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2024-05-18T19:12:55.477+03:00  INFO 13084 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-05-18T19:12:55.531+03:00 DEBUG 13084 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 34 mappings in 'requestMappingHandlerMapping'
-2024-05-18T19:12:55.914+03:00 DEBUG 13084 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2024-05-18T19:12:55.923+03:00 DEBUG 13084 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2024-05-18T19:12:56.212+03:00  INFO 13084 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
-2024-05-18T19:12:56.277+03:00  INFO 13084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
-2024-05-18T19:12:56.289+03:00  INFO 13084 --- [main] c.k.FullStackBootCampProjectApplication  : Started FullStackBootCampProjectApplication in 4.945 seconds (process running for 5.576)
-2024-05-18T19:13:02.531+03:00  INFO 13084 --- [http-nio-4444-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-18T19:13:02.531+03:00  INFO 13084 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-18T19:13:02.532+03:00 DEBUG 13084 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2024-05-18T19:13:02.532+03:00 DEBUG 13084 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
-2024-05-18T19:13:02.532+03:00 DEBUG 13084 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
-2024-05-18T19:13:02.533+03:00 DEBUG 13084 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2ca6937
-2024-05-18T19:13:02.534+03:00 DEBUG 13084 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2f81d7f
-2024-05-18T19:13:02.534+03:00 DEBUG 13084 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2024-05-18T19:13:02.534+03:00  INFO 13084 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2024-05-18T19:13:02.550+03:00 DEBUG 13084 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
-2024-05-18T19:13:02.564+03:00 DEBUG 13084 --- [http-nio-4444-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
-2024-05-18T19:13:02.739+03:00 DEBUG 13084 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-05-18T19:14:00.236+03:00  INFO 13084 --- [main] c.k.runner.BlogCommandLineRunner1        : Category-Blog CommandLineRunner Çalıştı
-2024-05-18T19:17:50.114+03:00  INFO 13084 --- [SpringApplicationShutdownHook] c.k.bean.SwaggerOpenApiBeanClass         : swagger Open Api After Bean bitti
-2024-05-18T19:17:50.114+03:00  INFO 13084 --- [SpringApplicationShutdownHook] c.k.bean.PasswordEncoderBeanClass        : password Encoder After Bean bitti
-2024-05-18T19:17:50.114+03:00  INFO 13084 --- [SpringApplicationShutdownHook] c.keremtalha.bean.ModelMapperBeanClass   : Model mapper After bean bitti
-2024-05-18T19:17:50.114+03:00  INFO 13084 --- [SpringApplicationShutdownHook] com.keremtalha.bean.Locale18NBeanClass   : locale 18N After Bean Method bitti
-2024-05-18T19:17:50.114+03:00  INFO 13084 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-18T19:17:50.342+03:00  INFO 13084 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-18T19:17:50.351+03:00  INFO 13084 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-18T19:32:30.363+03:00  INFO 4492 --- [main] c.k.FullStackBootCampProjectApplication  : Starting FullStackBootCampProjectApplication using Java 21.0.3 with PID 4492 (D:\Spring\Full_Stack_BootCamp_Project\target\classes started by kerem in D:\Spring\Full_Stack_BootCamp_Project)
-2024-05-18T19:32:30.365+03:00  INFO 4492 --- [main] c.k.FullStackBootCampProjectApplication  : The following 1 profile is active: "frontend"
-2024-05-18T19:32:31.186+03:00  INFO 4492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-18T19:32:31.263+03:00  INFO 4492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 6 JPA repository interfaces.
-2024-05-18T19:32:31.684+03:00  INFO 4492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
-2024-05-18T19:32:31.690+03:00  INFO 4492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-18T19:32:31.690+03:00  INFO 4492 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
-2024-05-18T19:32:31.766+03:00  INFO 4492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-18T19:32:31.766+03:00  INFO 4492 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1366 ms
-2024-05-18T19:32:31.838+03:00  INFO 4492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-18T19:32:32.039+03:00  INFO 4492 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
-2024-05-18T19:32:32.040+03:00  INFO 4492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-18T19:32:32.052+03:00  INFO 4492 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
-2024-05-18T19:32:32.101+03:00 DEBUG 4492 --- [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
-2024-05-18T19:32:32.101+03:00 DEBUG 4492 --- [main] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
-2024-05-18T19:32:32.401+03:00  INFO 4492 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-18T19:32:33.283+03:00  INFO 4492 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-18T19:32:33.289+03:00  INFO 4492 --- [main] com.keremtalha.bean.Locale18NBeanClass   : swagger Open Api Before Bean başladı
-2024-05-18T19:32:33.290+03:00  INFO 4492 --- [main] c.keremtalha.bean.ModelMapperBeanClass   : Model mapper bean Before başladı
-2024-05-18T19:32:33.291+03:00  INFO 4492 --- [main] c.k.bean.PasswordEncoderBeanClass        : password Encoder Before Bean başladı
-2024-05-18T19:32:33.292+03:00  INFO 4492 --- [main] c.k.bean.SwaggerOpenApiBeanClass         : swagger Open Api Before Bean başladı
-2024-05-18T19:32:33.605+03:00  INFO 4492 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-18T19:32:34.040+03:00  WARN 4492 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-18T19:32:34.126+03:00 DEBUG 4492 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2024-05-18T19:32:34.151+03:00  INFO 4492 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-05-18T19:32:34.202+03:00 DEBUG 4492 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 34 mappings in 'requestMappingHandlerMapping'
-2024-05-18T19:32:34.606+03:00 DEBUG 4492 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2024-05-18T19:32:34.615+03:00 DEBUG 4492 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2024-05-18T19:32:34.954+03:00  INFO 4492 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
-2024-05-18T19:32:35.023+03:00  INFO 4492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
-2024-05-18T19:32:35.034+03:00  INFO 4492 --- [main] c.k.FullStackBootCampProjectApplication  : Started FullStackBootCampProjectApplication in 5.006 seconds (process running for 5.616)
-2024-05-18T19:32:44.081+03:00  INFO 4492 --- [SpringApplicationShutdownHook] c.k.bean.SwaggerOpenApiBeanClass         : swagger Open Api After Bean bitti
-2024-05-18T19:32:44.081+03:00  INFO 4492 --- [SpringApplicationShutdownHook] c.k.bean.PasswordEncoderBeanClass        : password Encoder After Bean bitti
-2024-05-18T19:32:44.081+03:00  INFO 4492 --- [SpringApplicationShutdownHook] c.keremtalha.bean.ModelMapperBeanClass   : Model mapper After bean bitti
-2024-05-18T19:32:44.082+03:00  INFO 4492 --- [SpringApplicationShutdownHook] com.keremtalha.bean.Locale18NBeanClass   : locale 18N After Bean Method bitti
-2024-05-18T19:32:44.082+03:00  INFO 4492 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-18T19:32:44.313+03:00  INFO 4492 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-18T19:32:44.323+03:00  INFO 4492 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-18T22:54:17.299+03:00  INFO 14248 --- [main] c.k.FullStackBootCampProjectApplication  : Starting FullStackBootCampProjectApplication using Java 21.0.3 with PID 14248 (D:\Spring\Full_Stack_BootCamp_Project\target\classes started by kerem in D:\Spring\Full_Stack_BootCamp_Project)
-2024-05-18T22:54:17.302+03:00  INFO 14248 --- [main] c.k.FullStackBootCampProjectApplication  : The following 1 profile is active: "frontend"
-2024-05-18T22:54:18.284+03:00  INFO 14248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-18T22:54:18.360+03:00  INFO 14248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 6 JPA repository interfaces.
-2024-05-18T22:54:18.848+03:00  INFO 14248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
-2024-05-18T22:54:18.856+03:00  INFO 14248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-18T22:54:18.857+03:00  INFO 14248 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
-2024-05-18T22:54:18.948+03:00  INFO 14248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-18T22:54:18.948+03:00  INFO 14248 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1598 ms
-2024-05-18T22:54:19.070+03:00  INFO 14248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-18T22:54:19.292+03:00  INFO 14248 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
-2024-05-18T22:54:19.294+03:00  INFO 14248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-18T22:54:19.303+03:00  INFO 14248 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
-2024-05-18T22:54:19.374+03:00 DEBUG 14248 --- [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
-2024-05-18T22:54:19.374+03:00 DEBUG 14248 --- [main] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
-2024-05-18T22:54:19.777+03:00  INFO 14248 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-18T22:54:20.854+03:00  INFO 14248 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-18T22:54:20.861+03:00  INFO 14248 --- [main] com.keremtalha.bean.Locale18NBeanClass   : swagger Open Api Before Bean başladı
-2024-05-18T22:54:20.862+03:00  INFO 14248 --- [main] c.keremtalha.bean.ModelMapperBeanClass   : Model mapper bean Before başladı
-2024-05-18T22:54:20.863+03:00  INFO 14248 --- [main] c.k.bean.PasswordEncoderBeanClass        : password Encoder Before Bean başladı
-2024-05-18T22:54:20.863+03:00  INFO 14248 --- [main] c.k.bean.SwaggerOpenApiBeanClass         : swagger Open Api Before Bean başladı
-2024-05-18T22:54:21.216+03:00  INFO 14248 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-18T22:54:21.684+03:00  WARN 14248 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-18T22:54:21.773+03:00 DEBUG 14248 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2024-05-18T22:54:21.799+03:00  INFO 14248 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-05-18T22:54:21.863+03:00 DEBUG 14248 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 34 mappings in 'requestMappingHandlerMapping'
-2024-05-18T22:54:22.294+03:00 DEBUG 14248 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2024-05-18T22:54:22.312+03:00 DEBUG 14248 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2024-05-18T22:54:22.733+03:00  INFO 14248 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
-2024-05-18T22:54:22.810+03:00  INFO 14248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
-2024-05-18T22:54:22.821+03:00  INFO 14248 --- [main] c.k.FullStackBootCampProjectApplication  : Started FullStackBootCampProjectApplication in 5.917 seconds (process running for 6.813)
-2024-05-18T22:54:22.856+03:00  INFO 14248 --- [http-nio-4444-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-18T22:54:22.857+03:00  INFO 14248 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-18T22:54:22.857+03:00 DEBUG 14248 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2024-05-18T22:54:22.857+03:00 DEBUG 14248 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
-2024-05-18T22:54:22.857+03:00 DEBUG 14248 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
-2024-05-18T22:54:22.858+03:00 DEBUG 14248 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2c8174ce
-2024-05-18T22:54:22.859+03:00 DEBUG 14248 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5739b804
-2024-05-18T22:54:22.859+03:00 DEBUG 14248 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2024-05-18T22:54:22.859+03:00  INFO 14248 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2024-05-18T22:54:22.877+03:00 DEBUG 14248 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
-2024-05-18T22:54:22.893+03:00 DEBUG 14248 --- [http-nio-4444-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
-2024-05-18T22:54:23.128+03:00 DEBUG 14248 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-05-18T22:55:06.294+03:00 DEBUG 14248 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
-2024-05-18T22:55:06.296+03:00 DEBUG 14248 --- [http-nio-4444-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
-2024-05-18T22:55:06.297+03:00 DEBUG 14248 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-05-18T22:55:29.118+03:00  INFO 14248 --- [main] c.k.runner.BlogCommandLineRunner1        : Category-Blog CommandLineRunner Çalıştı
-2024-05-18T22:55:40.179+03:00  WARN 14248 --- [RMI TCP Connection(3)-192.168.137.1] o.s.b.a.health.HealthEndpointSupport     : Health contributor org.springframework.boot.actuate.mail.MailHealthIndicator (mail) took 10673ms to respond
-2024-05-18T22:59:37.514+03:00 DEBUG 14248 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
-2024-05-18T22:59:37.516+03:00 DEBUG 14248 --- [http-nio-4444-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
-2024-05-18T22:59:37.518+03:00 DEBUG 14248 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-05-18T23:35:08.277+03:00 DEBUG 14248 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
-2024-05-18T23:35:08.291+03:00 DEBUG 14248 --- [http-nio-4444-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
-2024-05-18T23:35:08.305+03:00 DEBUG 14248 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2024-05-18T23:56:06.722+03:00  INFO 14248 --- [SpringApplicationShutdownHook] c.k.bean.SwaggerOpenApiBeanClass         : swagger Open Api After Bean bitti
-2024-05-18T23:56:06.722+03:00  INFO 14248 --- [SpringApplicationShutdownHook] c.k.bean.PasswordEncoderBeanClass        : password Encoder After Bean bitti
-2024-05-18T23:56:06.722+03:00  INFO 14248 --- [SpringApplicationShutdownHook] c.keremtalha.bean.ModelMapperBeanClass   : Model mapper After bean bitti
-2024-05-18T23:56:06.723+03:00  INFO 14248 --- [SpringApplicationShutdownHook] com.keremtalha.bean.Locale18NBeanClass   : locale 18N After Bean Method bitti
-2024-05-18T23:56:06.723+03:00  INFO 14248 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-18T23:56:06.794+03:00  INFO 14248 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-18T23:56:06.860+03:00  INFO 14248 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-19T09:37:02.381+03:00  INFO 24260 --- [main] c.k.FullStackBootCampProjectApplication  : Starting FullStackBootCampProjectApplication using Java 21.0.3 with PID 24260 (D:\Spring\Full_Stack_BootCamp_Project\target\classes started by kerem in D:\Spring\Full_Stack_BootCamp_Project)
+2024-05-19T09:37:02.387+03:00  INFO 24260 --- [main] c.k.FullStackBootCampProjectApplication  : The following 1 profile is active: "frontend"
+2024-05-19T09:37:03.732+03:00  INFO 24260 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-19T09:37:03.828+03:00  INFO 24260 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 6 JPA repository interfaces.
+2024-05-19T09:37:04.457+03:00  INFO 24260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2024-05-19T09:37:04.466+03:00  INFO 24260 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-19T09:37:04.467+03:00  INFO 24260 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-19T09:37:04.568+03:00  INFO 24260 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-19T09:37:04.568+03:00  INFO 24260 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2125 ms
+2024-05-19T09:37:04.648+03:00  INFO 24260 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-19T09:37:04.873+03:00  INFO 24260 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2024-05-19T09:37:04.875+03:00  INFO 24260 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-19T09:37:04.886+03:00  INFO 24260 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2024-05-19T09:37:04.946+03:00 DEBUG 24260 --- [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-05-19T09:37:04.947+03:00 DEBUG 24260 --- [main] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2024-05-19T09:37:05.364+03:00  INFO 24260 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-19T09:37:06.584+03:00  INFO 24260 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-19T09:37:06.590+03:00  INFO 24260 --- [main] com.keremtalha.bean.Locale18NBeanClass   : swagger Open Api Before Bean başladı
+2024-05-19T09:37:06.591+03:00  INFO 24260 --- [main] c.keremtalha.bean.ModelMapperBeanClass   : Model mapper bean Before başladı
+2024-05-19T09:37:06.592+03:00  INFO 24260 --- [main] c.k.bean.PasswordEncoderBeanClass        : password Encoder Before Bean başladı
+2024-05-19T09:37:06.592+03:00  INFO 24260 --- [main] c.k.bean.SwaggerOpenApiBeanClass         : swagger Open Api Before Bean başladı
+2024-05-19T09:37:07.008+03:00  INFO 24260 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-19T09:37:07.565+03:00  WARN 24260 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-19T09:37:07.684+03:00 DEBUG 24260 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-19T09:37:07.716+03:00  INFO 24260 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-05-19T09:37:07.789+03:00 DEBUG 24260 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 34 mappings in 'requestMappingHandlerMapping'
+2024-05-19T09:37:08.227+03:00 DEBUG 24260 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-05-19T09:37:08.236+03:00 DEBUG 24260 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-19T09:37:08.553+03:00  INFO 24260 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2024-05-19T09:37:08.622+03:00  INFO 24260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2024-05-19T09:37:08.633+03:00  INFO 24260 --- [main] c.k.FullStackBootCampProjectApplication  : Started FullStackBootCampProjectApplication in 6.819 seconds (process running for 7.887)
+2024-05-19T09:37:21.868+03:00  INFO 24260 --- [SpringApplicationShutdownHook] c.k.bean.SwaggerOpenApiBeanClass         : swagger Open Api After Bean bitti
+2024-05-19T09:37:21.868+03:00  INFO 24260 --- [SpringApplicationShutdownHook] c.k.bean.PasswordEncoderBeanClass        : password Encoder After Bean bitti
+2024-05-19T09:37:21.868+03:00  INFO 24260 --- [SpringApplicationShutdownHook] c.keremtalha.bean.ModelMapperBeanClass   : Model mapper After bean bitti
+2024-05-19T09:37:21.868+03:00  INFO 24260 --- [SpringApplicationShutdownHook] com.keremtalha.bean.Locale18NBeanClass   : locale 18N After Bean Method bitti
+2024-05-19T09:37:21.869+03:00  INFO 24260 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-19T09:37:22.112+03:00  INFO 24260 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-19T09:37:22.133+03:00  INFO 24260 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
