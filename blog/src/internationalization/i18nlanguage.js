@@ -24,7 +24,7 @@ i18n.use(initReactI18next).init({
                     'show':"Show",
                     'date':'Date',
                     'delete':"Delete",
-                    'blog_category_list': 'Blog Category List',
+                    'blog_category_list': 'TO DO LİST',
                     'blog_category_update': 'Blog Category Update',
                     'blog_category_view': 'Blog Category View',
                     'blog_category_create': 'Blog Category Create',
@@ -44,15 +44,15 @@ i18n.use(initReactI18next).init({
                     'create': 'Ekle',
                     'create_all': 'Çoklu veri ekle',
                     'delete_all': 'Hepsini Sil',
-                    'update':"Güncelle",
+                    'update':"Düzenle",
                     'show':"Göster",
                     'date':"Tarih",
                     'delete':"Sil",
-                    'blog_category_list': 'Blog Kategori Listesi',
+                    'blog_category_list': 'TO DO LİST',
                     'blog_category_update': 'Blog Kategori Güncelleme',
                     'blog_category_view': 'Blog Kategori Göster',
                     'blog_category_create': 'Blog Kategori Oluştur',
-                    'blog_category_name':'Blog Kategori Adı'
+                    'blog_category_name':'Görev Adı'
                 }
             }
     },
