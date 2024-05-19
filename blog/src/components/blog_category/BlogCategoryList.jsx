@@ -8,7 +8,7 @@ export default function BlogCategoryList(){
     let navigate=useNavigate();
 
     // STATE
-    const [blogCategoriesList,setBlogCategoriesList]=useState([]); //unutma list yazacaksınız.
+    const [getBlogCategoryList,setBlogCategoriesList]=useState([]); //unutma list yazacaksınız.
 
      // EFFECT 
     useEffect( ()=>{
@@ -40,20 +40,19 @@ export default function BlogCategoryList(){
                 </tr> 
             </thead>
             <tbody>
-                <tr>
-                <td>1</td>
-                <td>Task 1</td>
-                <td>You have to study React today.If you dont do that you can lost everything.</td>
-                <td>
-                <button className="btn btn-primary">Update</button>
-                </td>
-                <td>
-                <button className="btn btn-warning">View</button>
-                </td>
-                <td>
-                <button className="btn btn-danger"><i class="fa-solid fa-trash-can"></i></button>
-                </td>
-                </tr>
+{
+    getBlogCategoryList.map((data)=>
+    <tr>
+        <td>{data.categoryId}</td>
+        <td>{data.categoryName}</td>
+        <td>{data.systemCreatedDate}</td>
+        <td><button className="btn btn-warning" >Update</button></td>
+        <td><button className="btn btn-info">View</button></td>
+        <td><button className="btn btn-danger">Delete</button></td>
+    </tr>
+    )
+}
+                
             </tbody>
 
         </table>
