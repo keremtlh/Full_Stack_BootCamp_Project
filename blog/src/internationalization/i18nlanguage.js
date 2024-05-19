@@ -41,7 +41,7 @@ i18n.use(initReactI18next).init({
                     'contact': 'İletişim',
                     'login': 'Giriş',
                     'register': 'Üye Ol',
-                    'create': 'Ekle',
+                    'create': 'Yeni Görev Ekle',
                     'create_all': 'Çoklu veri ekle',
                     'delete_all': 'Hepsini Sil',
                     'update':"Düzenle",

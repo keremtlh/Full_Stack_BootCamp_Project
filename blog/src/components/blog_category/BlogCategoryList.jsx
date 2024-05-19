@@ -14,17 +14,17 @@ import BlogCategoryApi from "../../services/BlogCategoryApi";
 // FUNCTION COMPONENT
 function BlogCategoryList({ t, i18n, props }) {
 
-    // REDIRECT
-    let navigate = useNavigate();
+// REDIRECT
+let navigate = useNavigate();
 
-    // STATE
-    const [blogCategoryApiListData, setBlogCategoryApiListData] = useState([]); //unutma diziyi yaz
+// STATE
+const [blogCategoryApiListData, setBlogCategoryApiListData] = useState([]); //unutma diziyi yaz
 
-    // EFFECT
-    useEffect(() => {
-        //2.YOL
-        fetchBlogCategoryList();
-    }, []) //end useEffect
+// EFFECT
+   useEffect(() => {
+//2.YOL
+fetchBlogCategoryList();
+}, []) //end useEffect
 
     // Fetch users from API
     const fetchBlogCategoryList = async () => {
@@ -104,9 +104,12 @@ function BlogCategoryList({ t, i18n, props }) {
     // RETURN
     return (
         <React.Fragment>
-            <br /><br /><br /><br />
-            <h1 className="text-center display-5 mb-5">{t('blog_category_list')}</h1>
+            <br /><br /><br />
+            <h1 className="text-center display-5 mb-5" ><b><big>{t('blog_category_list')}</big></b></h1>
+            <div style={{ textAlign: 'center' }}> {/* Link'i içeren bir div */}
             <Link className='btn btn-primary me-2' to="/blog/category/create">{t('create')}</Link>
+            </div>
+            <br />br
              <table className='table table-striped table-responsive mb-5'>
                 <thead>
                 <tr>

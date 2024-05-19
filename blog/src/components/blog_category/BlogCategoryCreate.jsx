@@ -88,12 +88,12 @@ const blogCategoryCreateSubmit= async (event)=>{
   return (
     <>
     <div className="container mt-5">
-      <h1>GÖREV EKLEME</h1>
+      <h1><b><big>GÖREV EKLEME</big></b></h1>
 
 
 <form onSubmit={onSubmitForm}>
 
-<div className="form-group">
+        <div className="form-group">
         <label htmlFor="categoryName">Listeye eklemek istediğiniz görevi aşağıdaki bölüme giriniz.</label>
         <input 
         type="text" 

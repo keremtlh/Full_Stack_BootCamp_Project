@@ -35,10 +35,10 @@ useEffect(()=>{
     <p className="card-text">{blogCategoryView.systemCreatedDate}</p>
   </div>
 </div>
-<Link to="/blog/category/list" className="btn btn-primary btn-sm mt-3">Blog Category</Link>
-  
-
-    </div>
+<div style={{ textAlign: 'center' }}>
+  <Link to="/blog/category/list" className="btn btn-primary btn-sm mt-3">Liste Sayfasına Dön</Link>
+</div>
+</div>
   )
 }
 
