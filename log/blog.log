@@ -226,3 +226,228 @@
 2024-05-20T08:45:54.248+03:00  INFO 5804 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-05-20T08:45:54.481+03:00  INFO 5804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-05-20T08:45:54.493+03:00  INFO 5804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-20T08:45:59.997+03:00  INFO 23148 --- [main] c.k.FullStackBootCampProjectApplication  : Starting FullStackBootCampProjectApplication using Java 21.0.3 with PID 23148 (D:\Spring\Full_Stack_BootCamp_Project\target\classes started by kerem in D:\Spring\Full_Stack_BootCamp_Project)
+2024-05-20T08:45:59.998+03:00  INFO 23148 --- [main] c.k.FullStackBootCampProjectApplication  : The following 1 profile is active: "frontend"
+2024-05-20T08:46:00.805+03:00  INFO 23148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-20T08:46:00.880+03:00  INFO 23148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 6 JPA repository interfaces.
+2024-05-20T08:46:01.309+03:00  INFO 23148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2024-05-20T08:46:01.315+03:00  INFO 23148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-20T08:46:01.316+03:00  INFO 23148 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-20T08:46:01.392+03:00  INFO 23148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-20T08:46:01.392+03:00  INFO 23148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1360 ms
+2024-05-20T08:46:01.458+03:00  INFO 23148 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-20T08:46:01.635+03:00  INFO 23148 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2024-05-20T08:46:01.636+03:00  INFO 23148 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-20T08:46:01.644+03:00  INFO 23148 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2024-05-20T08:46:01.690+03:00 DEBUG 23148 --- [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-05-20T08:46:01.690+03:00 DEBUG 23148 --- [main] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2024-05-20T08:46:01.976+03:00  INFO 23148 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-20T08:46:02.829+03:00  INFO 23148 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T08:46:02.835+03:00  INFO 23148 --- [main] com.keremtalha.bean.Locale18NBeanClass   : swagger Open Api Before Bean başladı
+2024-05-20T08:46:02.836+03:00  INFO 23148 --- [main] c.keremtalha.bean.ModelMapperBeanClass   : Model mapper bean Before başladı
+2024-05-20T08:46:02.836+03:00  INFO 23148 --- [main] c.k.bean.PasswordEncoderBeanClass        : password Encoder Before Bean başladı
+2024-05-20T08:46:02.836+03:00  INFO 23148 --- [main] c.k.bean.SwaggerOpenApiBeanClass         : swagger Open Api Before Bean başladı
+2024-05-20T08:46:03.119+03:00  INFO 23148 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-20T08:46:03.533+03:00  WARN 23148 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-20T08:46:03.614+03:00 DEBUG 23148 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-20T08:46:03.637+03:00  INFO 23148 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-05-20T08:46:03.688+03:00 DEBUG 23148 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 34 mappings in 'requestMappingHandlerMapping'
+2024-05-20T08:46:04.065+03:00 DEBUG 23148 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-05-20T08:46:04.073+03:00 DEBUG 23148 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-20T08:46:04.386+03:00  INFO 23148 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2024-05-20T08:46:04.451+03:00  INFO 23148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2024-05-20T08:46:04.463+03:00  INFO 23148 --- [main] c.k.FullStackBootCampProjectApplication  : Started FullStackBootCampProjectApplication in 4.817 seconds (process running for 5.386)
+2024-05-20T08:46:39.876+03:00  INFO 23148 --- [http-nio-4444-exec-8] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-20T08:46:39.877+03:00  INFO 23148 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-20T08:46:39.877+03:00 DEBUG 23148 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-05-20T08:46:39.877+03:00 DEBUG 23148 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-05-20T08:46:39.877+03:00 DEBUG 23148 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-05-20T08:46:39.878+03:00 DEBUG 23148 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3b035d0c
+2024-05-20T08:46:39.878+03:00 DEBUG 23148 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2c5157c9
+2024-05-20T08:46:39.879+03:00 DEBUG 23148 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-05-20T08:46:39.879+03:00  INFO 23148 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-05-20T08:46:39.882+03:00 DEBUG 23148 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/blog/category/api/v1/create", parameters={}
+2024-05-20T08:46:39.887+03:00 DEBUG 23148 --- [http-nio-4444-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.controller.api.impl.BlogCategoryApiImpl#categoryApiCreate(BlogCategoryDto)
+2024-05-20T08:46:39.948+03:00 DEBUG 23148 --- [http-nio-4444-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [BlogCategoryDto(categoryId=null, systemCreatedDate=Mon May 20 11:16:39 IST 2024, categoryName=ders ç (truncated)...]
+2024-05-20T08:46:40.005+03:00 DEBUG 23148 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-20T08:46:40.008+03:00 DEBUG 23148 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [BlogCategoryDto(categoryId=1, systemCreatedDate=Mon May 20 11:16:39 IST 2024, categoryName=ders çalı (truncated)...]
+2024-05-20T08:46:40.016+03:00 DEBUG 23148 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T08:46:40.964+03:00 DEBUG 23148 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/blog/category/api/v1/list", parameters={}
+2024-05-20T08:46:40.967+03:00 DEBUG 23148 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.controller.api.impl.BlogCategoryApiImpl#categoryApiList()
+2024-05-20T08:46:40.974+03:00  INFO 23148 --- [http-nio-4444-exec-2] c.k.b.s.Impl.BlogCategoryServicesImpl    : Liste Sayısı: 1
+2024-05-20T08:46:40.975+03:00 DEBUG 23148 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-20T08:46:40.976+03:00 DEBUG 23148 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[BlogCategoryDto(categoryId=1, systemCreatedDate=2024-05-20 11:16:39.992, categoryName=ders çalış.)]]
+2024-05-20T08:46:40.978+03:00 DEBUG 23148 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T08:46:41.290+03:00 DEBUG 23148 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/blog/category/api/v1/list", parameters={}
+2024-05-20T08:46:41.291+03:00 DEBUG 23148 --- [http-nio-4444-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.controller.api.impl.BlogCategoryApiImpl#categoryApiList()
+2024-05-20T08:46:41.293+03:00  INFO 23148 --- [http-nio-4444-exec-6] c.k.b.s.Impl.BlogCategoryServicesImpl    : Liste Sayısı: 1
+2024-05-20T08:46:41.294+03:00 DEBUG 23148 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-20T08:46:41.294+03:00 DEBUG 23148 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[BlogCategoryDto(categoryId=1, systemCreatedDate=2024-05-20 11:16:39.992, categoryName=ders çalış.)]]
+2024-05-20T08:46:41.295+03:00 DEBUG 23148 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T08:47:07.119+03:00  INFO 23148 --- [main] c.k.runner.BlogCommandLineRunner1        : Category-Blog CommandLineRunner Çalıştı
+2024-05-20T08:47:17.974+03:00  WARN 23148 --- [RMI TCP Connection(4)-192.168.137.1] o.s.b.a.health.HealthEndpointSupport     : Health contributor org.springframework.boot.actuate.mail.MailHealthIndicator (mail) took 10588ms to respond
+2024-05-20T08:48:18.794+03:00 DEBUG 23148 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2024-05-20T08:48:18.797+03:00 DEBUG 23148 --- [http-nio-4444-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-05-20T08:48:18.811+03:00 DEBUG 23148 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T08:48:19.066+03:00 DEBUG 23148 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/swagger-config", parameters={}
+2024-05-20T08:48:19.068+03:00 DEBUG 23148 --- [http-nio-4444-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2024-05-20T08:48:19.071+03:00 DEBUG 23148 --- [http-nio-4444-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2024-05-20T08:48:19.072+03:00 DEBUG 23148 --- [http-nio-4444-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:4444/swagger-ui/oauth2-re (truncated)...]
+2024-05-20T08:48:19.074+03:00 DEBUG 23148 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T08:48:19.096+03:00 DEBUG 23148 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2024-05-20T08:48:19.097+03:00 DEBUG 23148 --- [http-nio-4444-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2024-05-20T08:48:19.213+03:00  WARN 23148 --- [http-nio-4444-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.keremtalha.controller.api.impl.TaskApiImpl
+2024-05-20T08:48:19.259+03:00  WARN 23148 --- [http-nio-4444-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.keremtalha.controller.api.impl.RegisterApiImpl
+2024-05-20T08:48:19.320+03:00  WARN 23148 --- [http-nio-4444-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.keremtalha.controller.api.impl.BlogCategoryApiImpl
+2024-05-20T08:48:19.324+03:00  WARN 23148 --- [http-nio-4444-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.keremtalha.controller.api.impl.BlogApiImpl
+2024-05-20T08:48:19.343+03:00  WARN 23148 --- [http-nio-4444-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.keremtalha.controller.api.impl.EmailApiImpl
+2024-05-20T08:48:19.393+03:00  WARN 23148 --- [http-nio-4444-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.keremtalha.error.CustomErrorHandleWebRequest
+2024-05-20T08:48:19.415+03:00  INFO 23148 --- [http-nio-4444-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 313 ms
+2024-05-20T08:48:19.425+03:00 DEBUG 23148 --- [http-nio-4444-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2024-05-20T08:48:19.426+03:00 DEBUG 23148 --- [http-nio-4444-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"openapi":"3.0.1","info":{"title":"title bilgisi","description":"description bilgisi","termsOfServi (truncated)..."]
+2024-05-20T08:48:19.427+03:00 DEBUG 23148 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T08:48:35.761+03:00 DEBUG 23148 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-05-20T08:48:35.768+03:00 DEBUG 23148 --- [http-nio-4444-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-05-20T08:48:35.947+03:00 DEBUG 23148 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T08:48:41.850+03:00 DEBUG 23148 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/blog/category/api/v1/list", parameters={}
+2024-05-20T08:48:41.850+03:00 DEBUG 23148 --- [http-nio-4444-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.controller.api.impl.BlogCategoryApiImpl#categoryApiList()
+2024-05-20T08:48:41.854+03:00  INFO 23148 --- [http-nio-4444-exec-9] c.k.b.s.Impl.BlogCategoryServicesImpl    : Liste Sayısı: 3
+2024-05-20T08:48:41.855+03:00 DEBUG 23148 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-20T08:48:41.855+03:00 DEBUG 23148 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[BlogCategoryDto(categoryId=1, systemCreatedDate=2024-05-20 11:16:39.992, categoryName=ders çalış.), (truncated)...]
+2024-05-20T08:48:41.855+03:00 DEBUG 23148 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T08:48:42.102+03:00 DEBUG 23148 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/blog/category/api/v1/list", parameters={}
+2024-05-20T08:48:42.102+03:00 DEBUG 23148 --- [http-nio-4444-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.controller.api.impl.BlogCategoryApiImpl#categoryApiList()
+2024-05-20T08:48:42.106+03:00  INFO 23148 --- [http-nio-4444-exec-7] c.k.b.s.Impl.BlogCategoryServicesImpl    : Liste Sayısı: 3
+2024-05-20T08:48:42.107+03:00 DEBUG 23148 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-20T08:48:42.107+03:00 DEBUG 23148 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[BlogCategoryDto(categoryId=1, systemCreatedDate=2024-05-20 11:16:39.992, categoryName=ders çalış.), (truncated)...]
+2024-05-20T08:48:42.107+03:00 DEBUG 23148 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T08:48:44.877+03:00 DEBUG 23148 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/blog/category/api/v1/find/1", parameters={}
+2024-05-20T08:48:44.878+03:00 DEBUG 23148 --- [http-nio-4444-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.controller.api.impl.BlogCategoryApiImpl#categoryApiFindById(Long)
+2024-05-20T08:48:44.883+03:00 DEBUG 23148 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-20T08:48:44.883+03:00 DEBUG 23148 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [BlogCategoryDto(categoryId=1, systemCreatedDate=2024-05-20 11:16:39.992, categoryName=ders çalış.)]
+2024-05-20T08:48:44.884+03:00 DEBUG 23148 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T08:48:45.204+03:00 DEBUG 23148 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/blog/category/api/v1/find/1", parameters={}
+2024-05-20T08:48:45.205+03:00 DEBUG 23148 --- [http-nio-4444-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.controller.api.impl.BlogCategoryApiImpl#categoryApiFindById(Long)
+2024-05-20T08:48:45.207+03:00 DEBUG 23148 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-20T08:48:45.207+03:00 DEBUG 23148 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [BlogCategoryDto(categoryId=1, systemCreatedDate=2024-05-20 11:16:39.992, categoryName=ders çalış.)]
+2024-05-20T08:48:45.208+03:00 DEBUG 23148 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T08:48:45.841+03:00 DEBUG 23148 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/blog/category/api/v1/list", parameters={}
+2024-05-20T08:48:45.841+03:00 DEBUG 23148 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.controller.api.impl.BlogCategoryApiImpl#categoryApiList()
+2024-05-20T08:48:45.845+03:00  INFO 23148 --- [http-nio-4444-exec-2] c.k.b.s.Impl.BlogCategoryServicesImpl    : Liste Sayısı: 3
+2024-05-20T08:48:45.846+03:00 DEBUG 23148 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-20T08:48:45.846+03:00 DEBUG 23148 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[BlogCategoryDto(categoryId=1, systemCreatedDate=2024-05-20 11:16:39.992, categoryName=ders çalış.), (truncated)...]
+2024-05-20T08:48:45.846+03:00 DEBUG 23148 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T08:48:46.107+03:00 DEBUG 23148 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/blog/category/api/v1/list", parameters={}
+2024-05-20T08:48:46.108+03:00 DEBUG 23148 --- [http-nio-4444-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.controller.api.impl.BlogCategoryApiImpl#categoryApiList()
+2024-05-20T08:48:46.112+03:00  INFO 23148 --- [http-nio-4444-exec-8] c.k.b.s.Impl.BlogCategoryServicesImpl    : Liste Sayısı: 3
+2024-05-20T08:48:46.113+03:00 DEBUG 23148 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-20T08:48:46.113+03:00 DEBUG 23148 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[BlogCategoryDto(categoryId=1, systemCreatedDate=2024-05-20 11:16:39.992, categoryName=ders çalış.), (truncated)...]
+2024-05-20T08:48:46.113+03:00 DEBUG 23148 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T08:48:46.458+03:00 DEBUG 23148 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/blog/category/api/v1/list", parameters={}
+2024-05-20T08:48:46.459+03:00 DEBUG 23148 --- [http-nio-4444-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.controller.api.impl.BlogCategoryApiImpl#categoryApiList()
+2024-05-20T08:48:46.462+03:00  INFO 23148 --- [http-nio-4444-exec-6] c.k.b.s.Impl.BlogCategoryServicesImpl    : Liste Sayısı: 3
+2024-05-20T08:48:46.462+03:00 DEBUG 23148 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-20T08:48:46.462+03:00 DEBUG 23148 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[BlogCategoryDto(categoryId=1, systemCreatedDate=2024-05-20 11:16:39.992, categoryName=ders çalış.), (truncated)...]
+2024-05-20T08:48:46.463+03:00 DEBUG 23148 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T08:48:46.772+03:00 DEBUG 23148 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/blog/category/api/v1/list", parameters={}
+2024-05-20T08:48:46.772+03:00 DEBUG 23148 --- [http-nio-4444-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.controller.api.impl.BlogCategoryApiImpl#categoryApiList()
+2024-05-20T08:48:46.776+03:00  INFO 23148 --- [http-nio-4444-exec-5] c.k.b.s.Impl.BlogCategoryServicesImpl    : Liste Sayısı: 3
+2024-05-20T08:48:46.777+03:00 DEBUG 23148 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-20T08:48:46.777+03:00 DEBUG 23148 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[BlogCategoryDto(categoryId=1, systemCreatedDate=2024-05-20 11:16:39.992, categoryName=ders çalış.), (truncated)...]
+2024-05-20T08:48:46.778+03:00 DEBUG 23148 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T09:16:59.294+03:00  INFO 23148 --- [SpringApplicationShutdownHook] c.k.bean.SwaggerOpenApiBeanClass         : swagger Open Api After Bean bitti
+2024-05-20T09:16:59.294+03:00  INFO 23148 --- [SpringApplicationShutdownHook] c.k.bean.PasswordEncoderBeanClass        : password Encoder After Bean bitti
+2024-05-20T09:16:59.295+03:00  INFO 23148 --- [SpringApplicationShutdownHook] c.keremtalha.bean.ModelMapperBeanClass   : Model mapper After bean bitti
+2024-05-20T09:16:59.295+03:00  INFO 23148 --- [SpringApplicationShutdownHook] com.keremtalha.bean.Locale18NBeanClass   : locale 18N After Bean Method bitti
+2024-05-20T09:16:59.295+03:00  INFO 23148 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T09:16:59.531+03:00  INFO 23148 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-20T09:16:59.549+03:00  INFO 23148 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-20T10:29:00.791+03:00  INFO 13704 --- [main] c.k.FullStackBootCampProjectApplication  : Starting FullStackBootCampProjectApplication using Java 21.0.3 with PID 13704 (D:\Spring\Full_Stack_BootCamp_Project\target\classes started by kerem in D:\Spring\Full_Stack_BootCamp_Project)
+2024-05-20T10:29:00.791+03:00  INFO 13704 --- [main] c.k.FullStackBootCampProjectApplication  : The following 1 profile is active: "frontend"
+2024-05-20T10:29:01.837+03:00  INFO 13704 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-20T10:29:01.915+03:00  INFO 13704 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 6 JPA repository interfaces.
+2024-05-20T10:29:02.430+03:00  INFO 13704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2024-05-20T10:29:02.436+03:00  INFO 13704 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-20T10:29:02.436+03:00  INFO 13704 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-20T10:29:02.525+03:00  INFO 13704 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-20T10:29:02.525+03:00  INFO 13704 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1686 ms
+2024-05-20T10:29:02.597+03:00  INFO 13704 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-20T10:29:02.854+03:00  INFO 13704 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2024-05-20T10:29:02.856+03:00  INFO 13704 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-20T10:29:02.865+03:00  INFO 13704 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2024-05-20T10:29:02.928+03:00 DEBUG 13704 --- [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-05-20T10:29:02.928+03:00 DEBUG 13704 --- [main] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2024-05-20T10:29:03.335+03:00  INFO 13704 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-20T10:29:04.400+03:00  INFO 13704 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T10:29:04.406+03:00  INFO 13704 --- [main] com.keremtalha.bean.Locale18NBeanClass   : swagger Open Api Before Bean başladı
+2024-05-20T10:29:04.407+03:00  INFO 13704 --- [main] c.keremtalha.bean.ModelMapperBeanClass   : Model mapper bean Before başladı
+2024-05-20T10:29:04.408+03:00  INFO 13704 --- [main] c.k.bean.PasswordEncoderBeanClass        : password Encoder Before Bean başladı
+2024-05-20T10:29:04.408+03:00  INFO 13704 --- [main] c.k.bean.SwaggerOpenApiBeanClass         : swagger Open Api Before Bean başladı
+2024-05-20T10:29:04.786+03:00  INFO 13704 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-20T10:29:05.281+03:00  WARN 13704 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-20T10:29:05.369+03:00 DEBUG 13704 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-20T10:29:05.397+03:00  INFO 13704 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-05-20T10:29:05.454+03:00 DEBUG 13704 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 34 mappings in 'requestMappingHandlerMapping'
+2024-05-20T10:29:05.920+03:00 DEBUG 13704 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-05-20T10:29:05.937+03:00 DEBUG 13704 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-20T10:29:06.290+03:00  INFO 13704 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2024-05-20T10:29:06.364+03:00  INFO 13704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2024-05-20T10:29:06.376+03:00  INFO 13704 --- [main] c.k.FullStackBootCampProjectApplication  : Started FullStackBootCampProjectApplication in 5.959 seconds (process running for 6.759)
+2024-05-20T10:29:47.632+03:00  INFO 13704 --- [http-nio-4444-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-20T10:29:47.632+03:00  INFO 13704 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-20T10:29:47.632+03:00 DEBUG 13704 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-05-20T10:29:47.633+03:00 DEBUG 13704 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-05-20T10:29:47.633+03:00 DEBUG 13704 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-05-20T10:29:47.636+03:00 DEBUG 13704 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@39a8905b
+2024-05-20T10:29:47.636+03:00 DEBUG 13704 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@3ef8de39
+2024-05-20T10:29:47.637+03:00 DEBUG 13704 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-05-20T10:29:47.637+03:00  INFO 13704 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-05-20T10:29:47.651+03:00 DEBUG 13704 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/blog/category/api/v1/list", parameters={}
+2024-05-20T10:29:47.661+03:00 DEBUG 13704 --- [http-nio-4444-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.controller.api.impl.BlogCategoryApiImpl#categoryApiList()
+2024-05-20T10:29:47.683+03:00  INFO 13704 --- [http-nio-4444-exec-1] c.k.b.s.Impl.BlogCategoryServicesImpl    : Liste Sayısı: 0
+2024-05-20T10:29:47.692+03:00 DEBUG 13704 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-20T10:29:47.694+03:00 DEBUG 13704 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[]]
+2024-05-20T10:29:47.707+03:00 DEBUG 13704 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T10:29:47.719+03:00 DEBUG 13704 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/blog/category/api/v1/list", parameters={}
+2024-05-20T10:29:47.720+03:00 DEBUG 13704 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.controller.api.impl.BlogCategoryApiImpl#categoryApiList()
+2024-05-20T10:29:47.723+03:00  INFO 13704 --- [http-nio-4444-exec-2] c.k.b.s.Impl.BlogCategoryServicesImpl    : Liste Sayısı: 0
+2024-05-20T10:29:47.724+03:00 DEBUG 13704 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-20T10:29:47.724+03:00 DEBUG 13704 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[]]
+2024-05-20T10:29:47.725+03:00 DEBUG 13704 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T10:29:57.899+03:00 DEBUG 13704 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/blog/category/api/v1/create", parameters={}
+2024-05-20T10:29:57.900+03:00 DEBUG 13704 --- [http-nio-4444-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.controller.api.impl.BlogCategoryApiImpl#categoryApiCreate(BlogCategoryDto)
+2024-05-20T10:29:57.972+03:00 DEBUG 13704 --- [http-nio-4444-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [BlogCategoryDto(categoryId=null, systemCreatedDate=Mon May 20 12:59:57 IST 2024, categoryName=Learn  (truncated)...]
+2024-05-20T10:29:58.056+03:00 DEBUG 13704 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-20T10:29:58.057+03:00 DEBUG 13704 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [BlogCategoryDto(categoryId=1, systemCreatedDate=Mon May 20 12:59:58 IST 2024, categoryName=Learn Rea (truncated)...]
+2024-05-20T10:29:58.061+03:00 DEBUG 13704 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T10:29:59.343+03:00 DEBUG 13704 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/blog/category/api/v1/list", parameters={}
+2024-05-20T10:29:59.345+03:00 DEBUG 13704 --- [http-nio-4444-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.controller.api.impl.BlogCategoryApiImpl#categoryApiList()
+2024-05-20T10:29:59.358+03:00  INFO 13704 --- [http-nio-4444-exec-4] c.k.b.s.Impl.BlogCategoryServicesImpl    : Liste Sayısı: 1
+2024-05-20T10:29:59.359+03:00 DEBUG 13704 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-20T10:29:59.359+03:00 DEBUG 13704 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[BlogCategoryDto(categoryId=1, systemCreatedDate=2024-05-20 12:59:58.042, categoryName=Learn React J (truncated)...]
+2024-05-20T10:29:59.361+03:00 DEBUG 13704 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T10:29:59.682+03:00 DEBUG 13704 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/blog/category/api/v1/list", parameters={}
+2024-05-20T10:29:59.683+03:00 DEBUG 13704 --- [http-nio-4444-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.controller.api.impl.BlogCategoryApiImpl#categoryApiList()
+2024-05-20T10:29:59.687+03:00  INFO 13704 --- [http-nio-4444-exec-9] c.k.b.s.Impl.BlogCategoryServicesImpl    : Liste Sayısı: 1
+2024-05-20T10:29:59.688+03:00 DEBUG 13704 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-20T10:29:59.689+03:00 DEBUG 13704 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[BlogCategoryDto(categoryId=1, systemCreatedDate=2024-05-20 12:59:58.042, categoryName=Learn React J (truncated)...]
+2024-05-20T10:29:59.690+03:00 DEBUG 13704 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-20T10:30:04.257+03:00 DEBUG 13704 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/blog/category/api/v1/create", parameters={}
+2024-05-20T10:30:04.257+03:00 DEBUG 13704 --- [http-nio-4444-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.controller.api.impl.BlogCategoryApiImpl#categoryApiCreate(BlogCategoryDto)
+2024-05-20T10:30:04.258+03:00 DEBUG 13704 --- [http-nio-4444-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [BlogCategoryDto(categoryId=null, systemCreatedDate=Mon May 20 13:00:04 IST 2024, categoryName=Learn  (truncated)...]
+2024-05-20T10:30:04.300+03:00  WARN 13704 --- [http-nio-4444-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.keremtalha.controller.api.impl.BlogCategoryApiImpl.categoryApiCreate(com.keremtalha.business.dto.BlogCategoryDto): [Field error in object 'blogCategoryDto' on field 'categoryName': rejected value [Learn React JS ]; codes [UniqueBlogCategoryValidationName.blogCategoryDto.categoryName,UniqueBlogCategoryValidationName.categoryName,UniqueBlogCategoryValidationName.java.lang.String,UniqueBlogCategoryValidationName]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [blogCategoryDto.categoryName,categoryName]; arguments []; default message [categoryName]]; default message [You cannot type the name of the same category.]] ]
+2024-05-20T10:30:04.300+03:00 DEBUG 13704 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2024-05-20T10:30:04.309+03:00 DEBUG 13704 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}
+2024-05-20T10:30:04.312+03:00 DEBUG 13704 --- [http-nio-4444-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.keremtalha.error.CustomErrorHandleWebRequest#handleErrorMethod(WebRequest)
+2024-05-20T10:30:04.321+03:00 DEBUG 13704 --- [http-nio-4444-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-20T10:30:04.324+03:00 DEBUG 13704 --- [http-nio-4444-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [ApiResult(path=/blog/category/api/v1/create, message=Validation failed for object='blogCategoryDto'. (truncated)...]
+2024-05-20T10:30:04.331+03:00 DEBUG 13704 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+2024-05-20T10:30:09.459+03:00  INFO 13704 --- [main] c.k.runner.BlogCommandLineRunner1        : Category-Blog CommandLineRunner Çalıştı
+2024-05-20T10:30:20.521+03:00  WARN 13704 --- [RMI TCP Connection(3)-192.168.137.1] o.s.b.a.health.HealthEndpointSupport     : Health contributor org.springframework.boot.actuate.mail.MailHealthIndicator (mail) took 10523ms to respond
+2024-05-20T10:36:41.667+03:00  INFO 13704 --- [SpringApplicationShutdownHook] c.k.bean.SwaggerOpenApiBeanClass         : swagger Open Api After Bean bitti
+2024-05-20T10:36:41.668+03:00  INFO 13704 --- [SpringApplicationShutdownHook] c.k.bean.PasswordEncoderBeanClass        : password Encoder After Bean bitti
+2024-05-20T10:36:41.668+03:00  INFO 13704 --- [SpringApplicationShutdownHook] c.keremtalha.bean.ModelMapperBeanClass   : Model mapper After bean bitti
+2024-05-20T10:36:41.668+03:00  INFO 13704 --- [SpringApplicationShutdownHook] com.keremtalha.bean.Locale18NBeanClass   : locale 18N After Bean Method bitti
+2024-05-20T10:36:41.668+03:00  INFO 13704 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-20T10:36:41.919+03:00  INFO 13704 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-20T10:36:41.939+03:00  INFO 13704 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
