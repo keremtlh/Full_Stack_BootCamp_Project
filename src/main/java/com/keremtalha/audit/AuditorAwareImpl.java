@@ -34,6 +34,6 @@ public class AuditorAwareImpl implements AuditorAware<String> {
         }*/
         // Eğer sistemde bir kullanıcı giriş  yapmamışsa default olarak HamitM. dönder
         //return Optional.ofNullable(authentication!=null? authentication.getName() : null)
-        return Optional.of("HamitM.");
+        return Optional.of("KeremTalha");
     }
 } // end class
